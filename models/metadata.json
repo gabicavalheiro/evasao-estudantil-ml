@@ -1,0 +1,321 @@
+{
+  "treinado_em": "2026-10-01T13:10:02",
+  "versao_sklearn": "1.8.0",
+  "coluna_alvo": "Target",
+  "valores_positivos": [
+    "desistente"
+  ],
+  "modelo": "Regressão Logística",
+  "hiperparametros": {
+    "C": 0.0745934328572655
+  },
+  "limiar": 0.5,
+  "diagnostico": {
+    "status": "bom ajuste",
+    "texto": "O F1 no treino (0.793) e na validação (0.785) são próximos (diferença de 0.008) e acima de 0.70. Não há evidência de overfitting nem de underfitting. No ROC-AUC, a diferença treino-validação é 0.007. O F1 no teste (0.815) difere 0.031 da validação cruzada, o que indica que a estimativa da validação se manteve em dados nunca vistos."
+  },
+  "metricas": {
+    "treino_cv": {
+      "f1": 0.7928583639973683,
+      "recall": 0.8098585849774406,
+      "precisao": 0.7766703743345208,
+      "roc_auc": 0.9189011046747815,
+      "acuracia": 0.8641175376604053
+    },
+    "validacao_cv": {
+      "f1": 0.784501813638564,
+      "recall": 0.8028132004018858,
+      "precisao": 0.767888742019995,
+      "roc_auc": 0.9117920770997952,
+      "acuracia": 0.8581045876984794
+    },
+    "validacao_cv_dp": {
+      "f1": 0.02315165899170262,
+      "recall": 0.020200874228048376,
+      "precision": 0.036478121717190753,
+      "roc_auc": 0.012353950436692506,
+      "accuracy": 0.017594791626811632
+    },
+    "teste": {
+      "acuracia": 0.8779661016949153,
+      "precisao": 0.7933333333333333,
+      "recall": 0.8380281690140845,
+      "f1": 0.815068493150685,
+      "roc_auc": 0.9357936303344191
+    }
+  },
+  "tamanho_treino": 3538,
+  "tamanho_teste": 885,
+  "features": [
+    {
+      "nome": "EstadoCivil",
+      "tipo": "categorica",
+      "opcoes": [
+        "Solteiro",
+        "Casado",
+        "Divorciado",
+        "União de Fato",
+        "Separado Judicialmente",
+        "Viúvo"
+      ],
+      "padrao": "Solteiro"
+    },
+    {
+      "nome": "Curso",
+      "tipo": "categorica",
+      "opcoes": [
+        "Enfermagem",
+        "Gestão",
+        "Serviço Social",
+        "Enfermagem Veterinária",
+        "Jornalismo e Comunicação",
+        "Gestão (presencial noturno)",
+        "Gestão de Publicidade e Marketing",
+        "Turismo",
+        "Design de Comunicação",
+        "Serviço Social (prestação nocturna)",
+        "Agronomia",
+        "Design de Animação e Multimédia",
+        "Ensino Básico",
+        "Engenharia Informática",
+        "Equincultura",
+        "Higiene Oral",
+        "Tecnologias de Produção de Biocombustíveis"
+      ],
+      "padrao": "Enfermagem"
+    },
+    {
+      "nome": "QualificacaoAnterior",
+      "tipo": "categorica",
+      "opcoes": [
+        "Ensino Secundário",
+        "Curso de Especialização Tecnológica",
+        "Ensino Básico (3º Ciclo)",
+        "Ensino Superior - Licenciatura",
+        "Ensino Superior - Licenciatura (1º Ciclo)",
+        "Outro - 11º Ano de Escolaridade",
+        "Curso Técnico Superior Profissional",
+        "Frequência do Ensino Superior",
+        "12º Ano de Escolaridade - Não Concluído",
+        "Ensino Superior - Mestrado",
+        "Ensino Básico (2º Ciclo)",
+        "Ensino Superior - Mestrado (2º Ciclo)",
+        "11º Ano de Escolaridade - Não Concluído",
+        "10º Ano de Escolaridade - Não Concluído",
+        "Ensino Superior - Doutoramento"
+      ],
+      "padrao": "Ensino Secundário"
+    },
+    {
+      "nome": "QualificacaoAnteriorGrau",
+      "tipo": "numerica",
+      "minimo": 95.0,
+      "maximo": 190.0,
+      "mediana": 133.1,
+      "inteiro": false
+    },
+    {
+      "nome": "Nacionalidade",
+      "tipo": "categorica",
+      "opcoes": [
+        "Português",
+        "Brasileiro",
+        "Cabo-verdiano",
+        "Santomense",
+        "Espanhol",
+        "Guineense",
+        "Ucraniano",
+        "Italiano",
+        "Romeno",
+        "Mexicano",
+        "Moçambicano",
+        "Moldávia (República da)",
+        "Angolano",
+        "Inglês",
+        "Holandês",
+        "Colombiano",
+        "Russo",
+        "Lituano",
+        "Alemão"
+      ],
+      "padrao": "Português"
+    },
+    {
+      "nome": "NotaAdmissao",
+      "tipo": "numerica",
+      "minimo": 95.0,
+      "maximo": 190.0,
+      "mediana": 126.0,
+      "inteiro": false
+    },
+    {
+      "nome": "NecessidadesEspeciais",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "Devedor",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "MensalidadesEmDia",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "mediana": 1.0,
+      "inteiro": true
+    },
+    {
+      "nome": "Genero",
+      "tipo": "categorica",
+      "opcoes": [
+        "Feminino",
+        "Masculino"
+      ],
+      "padrao": "Feminino"
+    },
+    {
+      "nome": "Bolsista",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "International",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 1.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreCreditado",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 20.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreInscrito",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 26.0,
+      "mediana": 6.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreAvaliacoes",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 45.0,
+      "mediana": 8.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreAprovado",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 26.0,
+      "mediana": 5.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreGrau",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 18.0,
+      "mediana": 12.333333333333304,
+      "inteiro": false
+    },
+    {
+      "nome": "UnidadesCurriculares1SemestreSemAvaliacoes",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 12.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreCreditado",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 19.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreInscrito",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 23.0,
+      "mediana": 6.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreAvaliacoes",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 33.0,
+      "mediana": 8.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreAprovado",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 20.0,
+      "mediana": 5.0,
+      "inteiro": true
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreGrau",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 18.571428571428502,
+      "mediana": 12.23095238095235,
+      "inteiro": false
+    },
+    {
+      "nome": "UnidadesCurriculares2SemestreSemAvaliacoes",
+      "tipo": "numerica",
+      "minimo": 0.0,
+      "maximo": 12.0,
+      "mediana": 0.0,
+      "inteiro": true
+    },
+    {
+      "nome": "TaxaDesemprego",
+      "tipo": "numerica",
+      "minimo": 7.6,
+      "maximo": 16.2,
+      "mediana": 11.1,
+      "inteiro": false
+    },
+    {
+      "nome": "TaxaInflacao",
+      "tipo": "numerica",
+      "minimo": -0.8,
+      "maximo": 3.7,
+      "mediana": 1.4,
+      "inteiro": false
+    },
+    {
+      "nome": "PIB",
+      "tipo": "numerica",
+      "minimo": -4.06,
+      "maximo": 3.51,
+      "mediana": 0.32,
+      "inteiro": false
+    }
+  ]
+}

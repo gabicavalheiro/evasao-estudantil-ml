@@ -1,0 +1,4 @@
+modelo,f1_treino,f1_validacao,f1_validacao_dp,recall_validacao,precisao_validacao,roc_auc_validacao,acuracia_validacao
+Regressão Logística,0.7974,0.7804,0.0223,0.7966,0.7656,0.9127,0.8558
+Random Forest,1.0,0.7732,0.0288,0.7104,0.849,0.9128,0.8663
+Gradient Boosting,0.9795,0.781,0.019,0.7623,0.8018,0.907,0.8626

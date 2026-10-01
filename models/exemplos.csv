@@ -1,0 +1,11 @@
+EstadoCivil,Curso,QualificacaoAnterior,QualificacaoAnteriorGrau,Nacionalidade,NotaAdmissao,NecessidadesEspeciais,Devedor,MensalidadesEmDia,Genero,Bolsista,International,UnidadesCurriculares1SemestreCreditado,UnidadesCurriculares1SemestreInscrito,UnidadesCurriculares1SemestreAvaliacoes,UnidadesCurriculares1SemestreAprovado,UnidadesCurriculares1SemestreGrau,UnidadesCurriculares1SemestreSemAvaliacoes,UnidadesCurriculares2SemestreCreditado,UnidadesCurriculares2SemestreInscrito,UnidadesCurriculares2SemestreAvaliacoes,UnidadesCurriculares2SemestreAprovado,UnidadesCurriculares2SemestreGrau,UnidadesCurriculares2SemestreSemAvaliacoes,TaxaDesemprego,TaxaInflacao,PIB,real,probabilidade_modelo
+Solteiro,Agronomia,Ensino Superior - Licenciatura,140.0,Português,140.0,0,0,1,Masculino,0,0,2,6,8,2,13.5,0,1,6,9,1,13.0,0,15.5,2.8,-4.06,1,0.9486
+Solteiro,Jornalismo e Comunicação,Ensino Secundário,167.0,Português,153.0,0,0,1,Masculino,1,0,0,6,6,1,11.0,0,0,6,0,0,0.0,0,8.9,1.4,3.51,1,0.961
+Divorciado,Gestão,Ensino Secundário,133.1,Português,123.0,0,0,1,Masculino,0,0,0,5,5,1,10.0,0,0,5,5,0,0.0,0,7.6,2.6,0.32,1,0.9527
+Solteiro,Design de Animação e Multimédia,Ensino Secundário,136.0,Português,134.3,0,1,1,Feminino,0,0,0,0,0,0,0.0,0,0,0,0,0,0.0,0,12.4,0.5,1.79,1,0.5838
+Solteiro,Gestão de Publicidade e Marketing,Ensino Secundário,131.0,Português,135.9,0,0,1,Feminino,1,0,0,6,6,6,13.1666666666666,0,0,6,8,6,12.428571428571399,0,8.9,1.4,3.51,0,0.0709
+Solteiro,Engenharia Informática,Ensino Secundário,163.0,Português,150.8,0,0,1,Masculino,0,0,0,5,9,4,10.5,0,0,5,11,2,10.5,3,7.6,2.6,0.32,0,0.4376
+Solteiro,Enfermagem,Ensino Secundário,137.0,Português,124.6,0,0,1,Feminino,0,0,0,7,10,7,13.398,0,0,8,8,8,13.5425,0,15.5,2.8,-4.06,0,0.0752
+Solteiro,Enfermagem,Ensino Secundário,151.0,Português,127.8,0,0,1,Feminino,1,0,0,8,8,7,13.671428571428503,0,0,8,8,7,13.671428571428503,0,12.7,3.7,-1.7,0,0.0734
+Solteiro,Agronomia,Curso de Especialização Tecnológica,140.0,Português,140.0,0,0,1,Feminino,0,0,0,6,12,3,10.666666666666602,2,0,6,12,4,12.0,0,15.5,2.8,-4.06,1,0.3298
+Solteiro,Turismo,Ensino Secundário,143.0,Português,133.2,0,0,1,Feminino,0,0,0,6,9,5,13.4,0,0,6,16,2,13.5,0,10.8,1.4,1.74,0,0.6156

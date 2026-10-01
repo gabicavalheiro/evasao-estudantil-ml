@@ -1,0 +1,3 @@
+Repositório GitHub: <cole aqui o link>
+Aplicação Streamlit: <cole aqui o link>
+Vídeo explicativo: <cole aqui o link>
