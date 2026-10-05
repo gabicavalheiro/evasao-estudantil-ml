@@ -1,3 +1,3 @@
-Repositório GitHub: <cole aqui o link>
-Aplicação Streamlit: <cole aqui o link>
-Vídeo explicativo: <cole aqui o link>
+Repositório GitHub: https://github.com/gabicavalheiro/evasao-estudantil-ml
+Aplicação Streamlit: https://gabicavalheiro-evasao-estudantil-ml-appapp-eaqe2c.streamlit.app/
+Vídeo explicativo: https://drive.google.com/file/d/1WuhKlaY3GVv8_jtvU3YsP_tDeeY2C5jR/view?usp=sharing
