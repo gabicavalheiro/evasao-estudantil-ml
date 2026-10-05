@@ -12,7 +12,7 @@ python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# 2. base de dados: já incluída em data/StudentsPrepared.xlsx
+# 2. base de dados: já incluída em data/StudentsPrepared.xlsx (https://github.com/gabicavalheiro/evasao-estudantil-ml.git)
 #    (para outra base, copiar o arquivo .csv/.xlsx/.xls para data/)
 
 # 3. treinamento (gera modelo, métricas, gráficos e relatórios)
